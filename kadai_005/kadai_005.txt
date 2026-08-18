@@ -1,0 +1,34 @@
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> git init
+Initialized empty Git repository in C:/Users/ponna/OneDrive/デスクトップ/学習用/git/git_challenge/.git/
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> echo "Hello world!" >> .\hello_world.txt
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> git add .\hello_world.txt
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> git commit -m "Hello World!を追加"
+[main (root-commit) 303f892] Hello World!を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> git log
+commit 303f89289335a0b21ab5ac50266730ab5e2fc68d (HEAD -> main)
+Author: ponna-tea-n <302549788+ponna-tea-n@users.noreply.github.com>
+Date:   Tue Aug 18 22:24:01 2026 +0900
+
+    Hello World!を追加
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> echo "こんにちは、世界！" >> .\hello_world.txt
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> git add .\hello_world.txt
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> git commit -m "こんにちは、世界を追加"        
+[main 9f9a9b5] こんにちは、世界を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+PS C:\Users\ponna\OneDrive\デスクトップ\学習用\git\git_challenge> git log
+commit 9f9a9b51eec2db28e3376134703146616b4c3175 (HEAD -> main)
+Author: ponna-tea-n <302549788+ponna-tea-n@users.noreply.github.com>
+Date:   Tue Aug 18 22:26:11 2026 +0900
+
+commit 9f9a9b51eec2db28e3376134703146616b4c3175 (HEAD -> main)
+Author: ponna-tea-n <302549788+ponna-tea-n@users.noreply.github.com>
+Date:   Tue Aug 18 22:26:11 2026 +0900
+
+commit 9f9a9b51eec2db28e3376134703146616b4c3175 (HEAD -> main)
+Author: ponna-tea-n <302549788+ponna-tea-n@users.noreply.github.com>
+Date:   Tue Aug 18 22:26:11 2026 +0900
+
+    こんにちは、世界を追加
